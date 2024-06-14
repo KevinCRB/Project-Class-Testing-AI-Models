@@ -22,3 +22,8 @@ These columns include:
 - **Student Information:** Describes specifics about the student, such as their age, the program they are studying, the mode of study, etc.
 
 Additionally, the dataset includes many other data points that help in accurately classifying the performance levels.
+
+###Solution Approach
+Firstly, I conducted data exploration to identify and handle null or potentially unhelpful data. For categorical data, I replaced null values with the mode, and for numerical data, with the mean. Using graphs, I visualized the distribution of data across different labels.
+
+I employed various machine learning models to address the challenge, including Deep Neural Networks with variations in hyperparameters, Random Forest, Logistic Regression, Linear Discriminant Analysis (LDA), Decision Tree, and Naive Bayes classifier. Each model was evaluated based on accuracy. After the initial iteration, Deep Neural Networks demonstrated superior performance. Consequently, I focused on this model, experimenting with different hyperparameters and evaluating it further using metrics such as confusion matrix, precision, recall, and F1 score.
